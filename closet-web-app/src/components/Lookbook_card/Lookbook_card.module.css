@@ -1,0 +1,243 @@
+.lookbookCardWrapper {
+  width: 100%;
+  height: 774px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.lookbookCardMainImgWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 412px;
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc;
+  box-sizing: border-box;
+}
+
+.lookbookCardMainImg {
+  width: 412px;
+  height: 412px;
+  margin: 0;
+  padding: 0;
+}
+
+.lookbookCardClothes {
+  width: 100%;
+  height: 64px;
+  border-top-width: 0.5px;
+  border-bottom-width: 0.5px;
+  border-color: #cccccc;
+  border-style: solid;
+  margin: 0;
+  /* padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px; */
+  display: flex;
+  align-items: center;
+  overflow: visible;
+}
+
+.mySwiperClothes {
+  width: 100%;
+  height: 48px;
+  margin: 0;
+  padding: 0;
+  padding-left: 8px;
+}
+.swiperSlideCustom {
+  width: 48px;
+  height: 48px;
+  margin: 0;
+  padding: 0;
+}
+
+.lookbookCardCloth {
+  width: 48px;
+  height: 48px;
+  margin: 0;
+  padding: 0;
+}
+
+.lookbookCardContent {
+  width: 100%;
+  height: 298px;
+  margin: 0;
+  padding-top: 12px;
+  padding-bottom: 31px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.lookbookCardContentMemo {
+  width: 372px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px;
+  border-color: #cccccc;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.lookbookCardMemoTitle {
+  width: 372px;
+  height: 19px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #8c8c8c;
+}
+
+.lookbookCardMemoContent {
+  width: 372px;
+  height: 19px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333333;
+}
+
+.lookbookCardLockContent {
+  width: 372px;
+  height: 19px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.lookbookCardLockIcon {
+  width: 19px;
+  height: 19px;
+  margin: 0;
+  padding: 0;
+}
+
+.lookbookCardContentHashTag {
+  width: 372px;
+  height: 69px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px;
+  border-color: #cccccc;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.lookbookCardHashTagContent {
+  width: 372px;
+  height: 38px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-size: 16px;
+  color: #333333; */
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lookbookCardHashTag {
+  margin-right: 0.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.2;
+}
+
+.lookBookcardEditCloseBtn {
+  width: 24px;
+  height: 24px;
+  color: #333333;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+
+.lookBookcardEditCloseBtnMini {
+  width: 8px;
+  height: 8px;
+  color: #333333;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+.lookbookCardInput {
+  width: 372px;
+  height: 19px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333333;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+}
+
+.lookbookCardInputHashTag {
+  width: 372px;
+  height: 38px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333333;
+  border: none;
+  outline: none;
+  overflow: auto;
+  display: block;
+  resize: none;
+  background-color: #ffffff;
+  line-height: 1.2;
+}
+
+.lookbookCardLockIconEdit {
+  width: 19px;
+  height: 19px;
+  margin: 0;
+  padding: 0;
+  color: #cccccc;
+}
+
+.lookbookCardMemoContentEdit {
+  width: 372px;
+  height: 19px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #cccccc;
+}

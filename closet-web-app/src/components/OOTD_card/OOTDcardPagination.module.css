@@ -1,0 +1,24 @@
+:global(.swiper-pagination) {
+  display: flex;
+  justify-content: center; /* 가운데 정렬 */
+  align-items: center; /* 세로 가운데 정렬 */
+  width: 100px; /* 페이지네이션의 총 너비를 100%로 설정 */
+  height: 4px; /* 페이지네이션의 총 높이 설정 */
+  margin-top: 10px;
+}
+
+:global(.swiper-pagination-bullet) {
+  width: 8px;
+  height: 4px;
+  background: #cccccc;
+  opacity: 1;
+  margin-left: 4px;
+  border-radius: 25px;
+}
+
+:global(.swiper-pagination-bullet-active) {
+  width: 16px;
+  height: 4px;
+  border-radius: 25px;
+  background: #ffbe98;
+}

@@ -1,0 +1,122 @@
+.MonthTopCardWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.MonthTopCardImageDiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 618px;
+  background-color: #8c8c8c;
+}
+
+.MonthTopCardImage {
+  width: 412px;
+  height: 618px;
+}
+
+@media (max-width: 412px) {
+  .MonthTopCardImage {
+    width: 100%;
+    height: 618px;
+  }
+}
+
+.MonthTopCardContent {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  width: 100%;
+  /* width: 412px; */
+  height: 153px;
+  background-color: #ffffff;
+  border-width: 1px;
+  border-color: #cccccc;
+  border-style: solid;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.MonthTopCardUserInform {
+  height: 76px;
+  gap: 8px;
+  box-sizing: border-box;
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-bottom: 61px;
+  padding: 0;
+}
+
+.MonthTopCardTopNum {
+  font-size: 24px;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+  /* margin-bottom: 8px; */
+}
+
+.MonthTopCardUserId {
+  font-size: 16px;
+  color: #8c8c8c;
+  padding: 0;
+  margin: 0;
+}
+
+.MonthTopCardInstaId {
+  font-size: 10px;
+  color: #8c8c8c;
+  margin: 0;
+  padding: 0;
+}
+
+.MonthTopCardProfile {
+  position: absolute;
+  /* top: -40%; */
+  top: -61px;
+  /* left: 78%; */
+  left: calc(100% - 22px - 66.5px);
+  /* right: 22px; */
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-right: 22px; */
+  margin-bottom: 53px;
+  gap: 11px;
+  box-sizing: border-box;
+}
+
+.MonthTopCardProfileImg {
+  width: 123px;
+  height: 123px;
+  border-radius: 100%;
+  /* background-color: #ffbe98; */
+  margin: 0;
+}
+
+.MonthTopCardProfileButton {
+  width: 87px;
+  height: 27px;
+  border-radius: 4px;
+  border-width: 0.5px;
+  border-color: #cccccc;
+  border-style: solid;
+  background-color: #ffbe98;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.MonthTopCardProfileButtonText {
+  font-size: 10px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}

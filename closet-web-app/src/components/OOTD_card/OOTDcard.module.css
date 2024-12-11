@@ -1,0 +1,368 @@
+.OOTDcardWrapper {
+  width: 100%;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.OOTDcardInformBar {
+  width: 100%;
+  height: 51px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.OOTDcardInformProfile {
+  width: 148px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 12px;
+  gap: 12px;
+}
+
+.OOTDcardInformProfileImg {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.OOTDcardInformProfileId {
+  font-size: 16px;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.OOTDcardInformButtons {
+  width: 122px;
+  height: 27px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-right: 12px;
+}
+
+.OOTDcardInformFollowBtn {
+  background-color: #ffbe98;
+  width: 87px;
+  height: 27px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  color: #ffffff;
+}
+
+.OOTDcardInformFollowingBtn {
+  background-color: rgba(255, 190, 152, 0.3);
+  width: 87px;
+  height: 27px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  color: #ffbe98;
+}
+
+.OOTDcardInformMoreBtn {
+  width: 27px;
+  height: 27px;
+  color: #333333;
+}
+
+.OOTDcardImageSwiper {
+  width: 100%;
+  height: 436px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.OOTDcardImageSwiperImg {
+  width: 412px;
+  height: 412px;
+  margin: 0;
+  padding: 0;
+}
+
+.mySwiper {
+  width: 100%;
+  height: 412px;
+}
+
+.OOTDcardImageSwiper .customPagination {
+  /* position: absolute; */
+  /* bottom: 10px;
+  left: 50%; */
+  /* transform: translateX(-50%); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.OOTDcardImageSwiper .customPagination .swiper-pagination-bullet {
+  width: 8px;
+  height: 4px;
+  background: #cccccc;
+  opacity: 1;
+  margin-left: 4px;
+  border-radius: 25px;
+}
+
+.OOTDcardImageSwiper .customPagination .swiper-pagination-bullet-active {
+  width: 16px;
+  height: 4px;
+  border-radius: 25px;
+  background: #ffbe98;
+}
+
+.OOTDcardContent {
+  width: 100%;
+  height: 76px;
+  padding: 12px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.OOTDcardContentDescription {
+  gap: 4px;
+}
+
+.OOTDcardContentDesTitle {
+  font-size: 14px;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.OOTDcardContentDesTag {
+  font-size: 12px;
+  color: #ffbe98;
+  margin: 0;
+  padding: 0;
+}
+
+.OOTDcardContentDesTime {
+  font-size: 10px;
+  color: #8c8c8c;
+  margin: 0;
+  padding: 0;
+}
+
+.OOTDcardContentIconWrapper {
+  width: 89px;
+  height: 42px;
+  box-sizing: border-box;
+}
+
+.OOTDcardContentIcons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 89px;
+  height: 24px;
+  box-sizing: border-box;
+  /* gap: 8px; */
+}
+
+.OOTDcardContentIcon {
+  width: 24px;
+  height: 24px;
+  color: #333333;
+}
+
+.OOTDcardContentHeart {
+  width: 89px;
+  height: 14px;
+  font-size: 12px;
+  color: #333333;
+  text-align: center;
+}
+
+.OOTDcardClothes {
+  width: 100%;
+  height: 64px;
+  border-top-width: 0.5px;
+  border-bottom-width: 0.5px;
+  border-color: #cccccc;
+  border-style: solid;
+  margin: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  /* padding-left: 8px; */
+  display: flex;
+  align-items: center;
+  overflow: visible;
+  box-sizing: border-box;
+}
+
+.mySwiperClothes {
+  width: 100%;
+  height: 48px;
+  margin: 0;
+  padding: 0;
+  padding-left: 8px;
+}
+.swiperSlideCustom {
+  width: 48px;
+  height: 48px;
+  margin: 0;
+  padding: 0;
+}
+
+.OOTDcardCloth {
+  width: 48px;
+  height: 48px;
+  margin: 0;
+  padding: 0;
+}
+
+.OOTDcardDetailContent {
+  width: 100%;
+  height: 163px;
+  margin: 0;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-sizing: border-box;
+}
+
+.OOTDcardPreviewComment {
+  width: 356px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.OOTDcardPreviewCommentUserId {
+  font-size: 12px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.OOTDcardPreviewCommentComment {
+  font-size: 12px;
+  color: #333333;
+}
+
+.OOTDcardEditCloseBtn {
+  width: 24px;
+  height: 24px;
+  color: #333333;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+
+.OOTDcardEditCloseBtnMini {
+  width: 8px;
+  height: 8px;
+  color: #333333;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+.OOTDcardEditContent {
+  width: 100%;
+  margin: 0;
+  padding: 12px;
+  gap: 12px;
+  box-sizing: border-box;
+}
+
+.OOTDcardEditContentMemo {
+  /* width: 388px; */
+  width: 100%;
+  height: 165px;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.OOTDcardEditContentMemoTitle {
+  /* width: 388px; */
+  width: 100%;
+  height: 19px;
+  font-size: 16px;
+  color: #8c8c8c;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.OOTDcardEditContentMemoText {
+  /* width: 388px; */
+  width: 100%;
+  height: 142px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #cccccc;
+  border-style: solid;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.OOTDcardEditHashTag {
+  /* width: 388px; */
+  width: 100%;
+  height: 69px;
+  gap: 4px;
+  margin: 0;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.OOTDcardEditHashTagText {
+  /* width: 388px; */
+  width: 100%;
+  height: 38px;
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+  font-size: 16px;
+  color: #333333;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.OOTDcardAddTitle {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: #333333;
+}

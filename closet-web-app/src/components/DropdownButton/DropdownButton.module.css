@@ -1,0 +1,70 @@
+.dropdown {
+  position: relative; /* 드롭다운 목록을 버튼에 상대적으로 위치시킴 */
+  display: inline-block;
+  width: 88px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dropdown_button {
+  background-color: #eaebea;
+  color: #333333;
+  width: 88px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 100px;
+  border-width: 0.5px;
+  border-color: #eaebea;
+  border-style: solid;
+}
+
+.dropdown_menu {
+  /* display: block; */
+  position: absolute;
+  list-style: none;
+  z-index: 1;
+  top: 24px;
+  left: 0;
+  background-color: #eaebea;
+  color: #333333;
+  width: 88px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border-width: 0.5px;
+  border-color: #eaebea;
+  border-style: solid;
+  gap: 10px;
+}
+
+.dropdown_item {
+  cursor: pointer;
+  width: 88px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.upDownIcon {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

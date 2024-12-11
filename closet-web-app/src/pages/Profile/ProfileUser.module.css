@@ -1,0 +1,84 @@
+.ProfileUserWrapper {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.UserFeedWrapper {
+  width: 100%;
+  height: 538px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.UserFeedContent {
+  width: 100%;
+  margin: 0;
+  padding-top: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.UserFeedContentImages {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 4px;
+  row-gap: 4px;
+  box-sizing: border-box;
+}
+
+.UserFeedContentImage {
+  width: 100%;
+  /* height: 100%; */
+  aspect-ratio: 1;
+  object-fit: cover;
+  padding: 0;
+  margin: 0;
+}
+
+.UserFeedContentImageheart {
+  width: 22px;
+  height: 22px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+}
+
+.UserFeedContentNull {
+  width: 396px;
+  height: 506px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.UserFeedContentNullIcon {
+  width: 96px;
+  height: 96px;
+  color: #cccccc;
+  padding: 0;
+  margin: 0;
+}
+
+.UserFeedContentNullText {
+  width: 396px;
+  height: 24px;
+  font-size: 20px;
+  color: #cccccc;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,285 @@
+.ClothDeatilCardWrapper {
+  width: 100%;
+  height: 952px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.ClothDeatilCardImgContent {
+  width: 100%;
+  height: 412px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cccccc;
+}
+
+.ClothDeatilCardImg {
+  width: 412px;
+  height: 412px;
+  margin: 0;
+  padding: 0;
+}
+
+.ClothDeatilCardContent {
+  width: 100%;
+  height: 540px;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ClothDeatilCardContentCloset {
+  width: 100%;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ClothDeatilCardContentClosetTitle {
+  /* width: 35px; */
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ClothDeatilCardContentClosetName {
+  /* width: 35px; */
+  height: 14px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+.ClothDeatilCardContentBtnIcon {
+  width: 15px;
+  height: 15px;
+  margin: 0;
+  padding: 0;
+  color: #8c8c8c;
+}
+
+.ClothDeatilCardSelectContent {
+  width: 100%;
+  height: 215px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ClothDeatilCardSelectContentSeason {
+  width: 100%;
+  height: 24px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ClothDeatilCardSelectContentTitle {
+  height: 19px;
+  margin: 0;
+  height: 0;
+  box-sizing: border-box;
+  color: #8c8c8c;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ClothDeatilCardSelectContentSeasonInforms {
+  width: 248px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ClothDeatilCardSelectContentSeasonInform {
+  width: 56px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border-color: #cccccc;
+  border-width: 0.5px;
+  border-style: solid;
+  background-color: #cccccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  color: #333333;
+}
+
+.ClothDeatilCardSelectContentSeasonInformCheck {
+  width: 56px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border-color: #cccccc;
+  border-width: 0.5px;
+  border-style: solid;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  color: #ffffff;
+}
+
+.ClothDeatilCardSelectContents {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 11px;
+}
+
+.ClothDeatilCardSelectContentBrand {
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.ClothDeatilCardSelectContentBrandTitle {
+  height: 19px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #8c8c8c;
+}
+
+.ClothDeatilCardSelectContentBrandName {
+  height: 19px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333333;
+  border-bottom-color: #cccccc;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.ClothDeatilCardAddInform {
+  width: 100%;
+  height: 129px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.ClothDeatilCardAddInformHashTag {
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+  border-bottom-color: #cccccc;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.ClothDetailCardEditListBtn {
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ClothDetailCardEditInput {
+  height: 19px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333333;
+  border-bottom-color: #cccccc;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  background-color: #ffffff;
+}
+
+.ClothDetailCardEditTextArea {
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+  border-bottom-color: #cccccc;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  resize: none;
+  background-color: #ffffff;
+}
+
+.ClothDetailCardEditCloseBtn {
+  width: 24px;
+  height: 24px;
+  color: #333333;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}

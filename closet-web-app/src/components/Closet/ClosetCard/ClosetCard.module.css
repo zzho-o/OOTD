@@ -1,0 +1,116 @@
+.closetCardWrapper {
+  width: 160px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  box-sizing: border-box;
+}
+
+.closetCardPreview {
+  width: 160px;
+  height: 160px;
+  border-radius: 20px;
+  border-width: 1px;
+  border-color: #cccccc;
+  border-style: solid;
+  box-sizing: border-box;
+  background-color: #eaebea;
+  margin: 0;
+  padding: 0;
+}
+
+.closetCardPreviewContainer {
+  width: 160px;
+  height: 160px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+}
+
+.closetCardPreviewItem0 {
+  width: 80px;
+  height: 80px;
+  border-top-left-radius: 20px;
+}
+
+.closetCardPreviewItem1 {
+  width: 80px;
+  height: 80px;
+  border-top-right-radius: 20px;
+}
+
+.closetCardPreviewItem2 {
+  width: 80px;
+  height: 80px;
+  border-bottom-left-radius: 20px;
+}
+
+.closetCardPreviewItem3 {
+  width: 80px;
+  height: 80px;
+  border-bottom-right-radius: 20px;
+}
+
+.closetCardPreviewIconWrapper {
+  width: 160px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.closetCardPreviewIcon {
+  width: 70px;
+  height: 70px;
+  color: #cccccc;
+}
+
+.closetCardInform {
+  width: 160px;
+  height: 39px;
+  display: flex;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.closetCardInformText {
+  width: 124px;
+  height: 39px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+}
+
+.closetCardInformTextName {
+  width: 124px;
+  height: 18px;
+  font-size: 15px;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.closetCardInformTextCount {
+  width: 124px;
+  height: 17px;
+  font-size: 14px;
+  color: #8c8c8c;
+  margin: 0;
+  padding: 0;
+}
+
+.closetCardIcon {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,60 @@
+.closetContentWrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* padding-top: 20px; */
+  /* padding-bottom: 10px; */
+  /* padding-left: 24px;
+  padding-right: 24px; */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.closetContents {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 44px;
+  row-gap: 24px;
+  margin: 0;
+  padding-top: 20px;
+  /* padding-bottom: 10px; */
+  padding-left: 24px;
+  padding-right: 24px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 411px) {
+  .closetContents {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 10px;
+    row-gap: 24px;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+.closetContentButton {
+  width: 351px;
+  height: 56px;
+  border-radius: 10px;
+  border-width: 0.5px;
+  border-color: #cccccc;
+  border-style: solid;
+  background-color: #ffbe98;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  position: fixed;
+  z-index: 1000;
+  top: 698px;
+  margin-left: 7px;
+  margin-right: 6px;
+}

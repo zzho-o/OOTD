@@ -1,0 +1,61 @@
+.closetDetailWrapper {
+  width: 100%;
+  min-height: 659px;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.closetDetailContentWrapper {
+  width: 100%;
+  min-height: 659px;
+  margin: 0;
+  padding-top: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  box-sizing: border-box;
+}
+
+.closetDetailImgs {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 4px;
+  row-gap: 4px;
+}
+
+.closetDetailImg {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.closetContentNull {
+  width: 396px;
+  height: 627px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.closetContentNullIcon {
+  width: 96px;
+  height: 96px;
+  color: #cccccc;
+  padding: 0;
+  margin: 0;
+}
+
+.closetContentNullText {
+  width: 396px;
+  height: 24px;
+  font-size: 20px;
+  color: #cccccc;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
