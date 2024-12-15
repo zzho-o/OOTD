@@ -47,9 +47,9 @@ const Router = () => {
       screenOptions={{
         headerShown: false,
       }}>
-      {/* <Stack.Screen name="Login" component={Login} />
+      <Stack.Screen name="Login" component={Login} />
       <Stack.Screen name="Terms" component={Terms} />
-      <Stack.Screen name="SignUp" component={SignUp} /> */}
+      <Stack.Screen name="SignUp" component={SignUp} />
       <Stack.Screen name="Bottombar" component={Bottombar} />
       <Stack.Screen name="clothesImgAdd" component={ClothesAdd} />
       <Stack.Screen name="alarm" component={Alarm} />
