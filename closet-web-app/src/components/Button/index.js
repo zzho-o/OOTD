@@ -60,7 +60,6 @@ const Button = ({
             }}
             disabled={disabled}
         >
-            {console.log(state,type)}
             {children}
         </button>
     )
